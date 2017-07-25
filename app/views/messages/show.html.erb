@@ -1,13 +1,18 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @message.title %>
+ <strong>Title:</strong>
+ <%= @message.title %>
 </p>
 
 <p>
-  <strong>Message:</strong>
-  <%= @message.message %>
+ <strong>Message:</strong>
+ <%= @message.message %>
+</p>
+
+<p>
+ <strong>Name:</strong>
+ <%= @message.name %>
 </p>
 
 <%= link_to 'Edit', edit_message_path(@message) %> |
